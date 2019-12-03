@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>违停查询</title>
+</head>
+<style>
+    div,p,a,img{
+        margin: 0;
+        padding: 0;
+        list-style: 0;
+    }
+    .div-main{
+        width: 844px;
+        height: 402px;
+        background-color: #1e2d3b;
+        position: relative;
+        top: 20px;
+        left: 25%;
+    }
+    .div-left{
+        float: left;
+        position: absolute;
+        left: 100px;
+    }
+    .div-right{
+        float: right;
+        position: absolute;
+        bottom: 5px;
+        right: 100px;
+    }
+    .p-max{
+        font-size: 98px;
+        color: #3f9ade;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .p-little{
+        font-size: 20px;
+        color: #55606b;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .a1{
+        position: absolute;
+        bottom: 94px;
+        right: 160px;
+    }
+    .a2{
+        position: absolute;
+        bottom: 162px;
+        left: 160px;
+    }
+    .a3{
+        position: absolute;
+        top: 18px;
+        right: 130px;
+    }
+    .a4{
+        position: absolute;
+        top: 10px;
+        left: 158px;
+    }
+</style>
+<body>
+    <div class="div-main">
+        <div class="div-left">
+            <img src="images/road.png">
+            <a href="javascript:;" class="a1"><img src="images/icon1.png" onmouseover="this.src='images/icon2.png'" onmouseout="this.src='images/icon1.png'"></a>
+            <a href="javascript:;" class="a2"><img src="images/icon3.png" onmouseover="this.src='images/icon4.png'" onmouseout="this.src='images/icon3.png'"></a>
+            <a href="javascript:;" class="a3"><img src="images/icon5.png" onmouseover="this.src='images/icon6.png'" onmouseout="this.src='images/icon5.png'"></a>
+            <a href="javascript:;" class="a4"><img src="images/icon7.png" onmouseover="this.src='images/icon8.png'" onmouseout="this.src='images/icon7.png'"></a>
+        </div>
+        <div class="div-right">
+            <p class="p-max">查 违</p>
+            <p class="p-little">及时、迅速、精准、便捷</p>
+        <br/>
+            <img src="images/car.png"></div>
+    </div>
+</body>
+</html>
