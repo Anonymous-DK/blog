@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner_cont2 h2{ font-weight:bold}
+strong{ display:block}
+.inner_wrap{ background:url(innerBg-1.jpg)/*tpa=https://www.disneyenglish.com/images/innerBg.jpg*/ repeat left top; width:100%;}
+.inner_cont{ background: url(innerBg-1.jpg)/*tpa=https://www.disneyenglish.com/images/innerBg.jpg*/ repeat left top; width:1010px; margin:0 auto; padding-bottom:8px; padding-top:8px; overflow:hidden}
+.inner_left{ float:left; width:248px; display:inline; overflow:hidden}
+.inner_main{ float:left ; width:509px; display:inline; overflow:hidden; margin-left:3px;}
+.inner_right{ float:right; width:248px; display:inline; overflow:hidden}
+.inner_wrap h2{ font-size:24px; line-height:24px;font-family: 'disney_english_2_dembdregular';}
+.inner_wrap h3{ font-size:14px; line-height:16px;font-family: 'disney_english_2_dembdregular';}
+.inner_wrap p{ font-size:12px; line-height:16px; text-align:justify}
+.inner_wrap .sign, .inner_wrap .online{ padding-top:8px; padding-bottom:8px; }
+
+
+
+.title_cont{ background:#22313a /*url(../images/program_06.jpg) no-repeat 22px 12px*/; padding:20px 0 0 0; overflow:hidden}
+.title_img{ text-align:center; padding-bottom:5px;}
+.title_cont p{ padding-left:30px; margin-bottom:12px;}
+.title_cont h2{ padding-left:30px; margin-bottom:20px;}
+.title_cont a{ padding-top:14px;}
+
+.ap_cont{ background:#b3d334; overflow:hidden}
+.ap_cont img{ display:block; margin-bottom:10px;}
+.ap_cont h2{padding-left:26px; padding-right:40px; margin-bottom:9px;}
+.ap_cont h3{padding-left:26px; padding-right:40px; margin-top:10px; margin-bottom:10px;}
+.ap_cont p{padding-left:26px; padding-right:30px;}
+
+.ap_cont01{ background:#9eba2d;}
+.ap_cont02{ background:#b4272b;}
+.ap_cont03{ background:#f0562c;}
+
+.cred_cont01{ background:#f6871c;}
+.cred_cont02{ background:#f1592a;}
+.cred_cont03{ background:#b4272b;}
+
+
+.ap_bigeye_link{ text-align:center; padding-top:15px; padding-bottom:11px;}
+.ap_btn{ background:url(program_23-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_23.jpg*/ right no-repeat; width:10px; height:10px;  margin:0 3px; display:inline-block}
+.ap_btn_on, a.ap_btn:hover{  background:url(program_23-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_23.jpg*/ no-repeat; width:10px; height:10px; display:inline-block}
+.ap_bigeye_cont{ margin-bottom:35px;}
+.ap_img{ position:absolute; left:0 ; top:0; display:none}
+.ap_share{ background:url(share-1.png)/*tpa=https://www.disneyenglish.com/images/share.png*/ no-repeat; width:62px; height:22px; position:absolute; right:20px; bottom:10px; display:none}
+
+
+.cred_cont{ overflow:hidden}
+.cred_cont img{ display:block;}
+.cred_cont h2{padding-left:26px; padding-right:40px; margin-bottom:9px;}
+.cred_cont p{padding-left:26px; padding-right:30px; margin-bottom:13px;}
+.cred_bigeye_link{ text-align:center; padding-top:15px; padding-bottom:11px;}
+.cred_btn{ background:url(point-1.png)/*tpa=https://www.disneyenglish.com/images/point.png*/ right no-repeat; width:10px; height:10px;  margin:0 3px; display:inline-block}
+.cred_btn_on, a.cred_btn:hover{  background:url(point-1.png)/*tpa=https://www.disneyenglish.com/images/point.png*/ no-repeat; width:10px; height:10px; display:inline-block}
+.cred_bigeye_cont{ position:relative; height:305px;}
+.cred_img{ position:absolute; left:0 ; top:0; display:none}
+.cred_share{ background:url(share-1.png)/*tpa=https://www.disneyenglish.com/images/share.png*/ no-repeat; width:62px; height:22px; display:block; float:right; margin:0 22px 20px 0; display:none}
+
+
+.testi_cont{ background:#338a18; overflow:hidden}
+.testi_cont h1{ text-align:center ; padding:30px 0 25px 0}
+.testi_cont h3{padding-left:26px; padding-right:30px; margin-bottom:13px;}
+.testi_cont p{padding-left:26px; padding-right:30px; margin-bottom:13px;}
+.testi_bigeye_link{ text-align:center; padding-top:15px; padding-bottom:11px;}
+.testi_btn{ background:url(point-1.png)/*tpa=https://www.disneyenglish.com/images/point.png*/ right no-repeat; width:10px; height:10px;  margin:0 3px; display:inline-block}
+.testi_btn_on, a.testi_btn:hover{  background:url(point-1.png)/*tpa=https://www.disneyenglish.com/images/point.png*/ no-repeat; width:10px; height:10px; display:inline-block}
+.testi_bigeye_cont{ position:relative; height:225px;}
+.testi_img{ position:absolute; left:0 ; top:0; display:none}
+
+.nav_cont{ background:#74ae35; width:499px; padding:20px 0; text-align:center}
+
+
+
+
+.video_cont{ width:500px; height:300px; position:absolute; left:50%; top:50%; margin:-150px 0 0 -250px}
+
+.cont_back{ background:#dbdbdb url(program_arrow_01-1.png)/*tpa=https://www.disneyenglish.com/images/program_arrow_01.png*/ 20px center no-repeat; height:65px; line-height:65px;}
+
+.cont_activity{ background:#b4272b url(program_arrow_02-1.png)/*tpa=https://www.disneyenglish.com/images/program_arrow_02.png*/ 20px center no-repeat; height:100px; line-height:100px;}
+
+.cont_activity a , .cont_back a{ font-size:19px;font-family: 'disney_english_2_dembdregular'; display:block; padding-left:70px;}
+
+.banner_cont{ background:#fcd31f ; width:238px; text-align:left; padding:0px 0 16px 0 ; overflow:hidden; _zoom:1}
+.banner_cont p{ padding-top:15px; line-height:18px;}
+
+.content-asset .tb_05{ margin-top:10px;}
+
+.banner_cont2{ background:#ededed; color:#454f55; overflow: hidden; _zoom:1}
+.inner_wrap .banner_cont2 h2{ font-size:24px; margin:0 0 20px 0; padding:20px 0 0 26px;}
+.banner_cont2 p{ font-size:12px; line-height:16px;}
+.banner_cont2 a{ display:inline-block; margin:30px auto 10px; }
+
+.content-3{ width:744px; }
+
+.step_cont{ padding-left:55px; position:relative}
+.step_wrap{ background:#fff; width:100%; color:#808285; overflow:hidden; height:500px;}
+.content .step_wrap h2{ font-size:24px; margin-top:40px; font-weight:bold }
+.step_wrap p{ font-size:18px; font-weight:bold}
+h3.contentTitle{ padding:25px;}
+.step_cont a{ float:left; display:inline ; margin-right:10px; width:77px; height:203px; }
+
+.step_cont a.p_step0{ background:url(program_step_24_off-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_24_off.jpg*/ left 115px no-repeat;margin-right:95px;}
+
+.p_step2{ background:url(program_step_21_off-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_21_off.jpg*/ left 75px no-repeat; }
+.p_step1{ background:url(program_step_18_off-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_18_off.jpg*/ left 97px no-repeat; }
+.step_cont a.p_step3{ background:url(program_step_15_off-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_15_off.jpg*/ left 60px no-repeat;margin-right:66px;}
+
+.p_step4{ background:url(program_step_12_off-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_12_off.jpg*/ left 46px no-repeat; }
+.p_step5{ background:url(program_step_09_off-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_09_off.jpg*/ left 28px no-repeat; }
+.p_step6{ background:url(program_step_06_off-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_06_off.jpg*/ left 9px no-repeat; }
+.p_step7_us{ background:url(program_step_02_off-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_02_off.jpg*/ no-repeat; }
+.p_step7_cn{ background:url(program_step_02_off_cn-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_02_off_cn.jpg*/ no-repeat; }
+
+.step_cont .p_step0_on,  a.p_step0:hover{ background:url(program_step_24-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_24.jpg*/ left 115px no-repeat;margin-right:95px;}
+
+.p_step2_on, a.p_step2:hover{ background:url(program_step_21-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_21.jpg*/ left 75px no-repeat; }
+.p_step1_on, a.p_step1:hover{ background:url(program_step_18-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_18.jpg*/ left 97px no-repeat; }
+.step_cont .p_step3_on, a.p_step3:hover{ background:url(program_step_15-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_15.jpg*/ left 60px no-repeat;margin-right:66px;}
+
+.p_step4_on, a.p_step4:hover{ background:url(program_step_12-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_12.jpg*/ left 46px no-repeat; }
+.p_step5_on, a.p_step5:hover{ background:url(program_step_09-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_09.jpg*/ left 28px no-repeat; }
+.p_step6_on, a.p_step6:hover{ background:url(program_step_06-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_06.jpg*/ left 9px no-repeat; }
+.p_step7_us_on, a.p_step7_us:hover{ background:url(program_step_02-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_02.jpg*/ no-repeat; }
+
+.p_step7_cn_on, a.p_step7_cn:hover{ background:url(program_step_02_cn-1.jpg)/*tpa=https://www.disneyenglish.com/images/program_step_02_cn.jpg*/ no-repeat; }
+.p_img{ margin-bottom:54px; clear:both}
+.content p{padding-left:26px; padding-right:30px; margin-bottom:13px; line-height:16px;}
+.h2_margin{ margin-top:15px;}
+
+.arrow0903{ background:url(arrow0903-1.jpg)/*tpa=https://www.disneyenglish.com/images/arrow0903.jpg*/ left bottom no-repeat; width:88px; padding-bottom:7px; color:#0073bc; font-weight:bold; font-size:16px; position:absolute; left:0px; top:0px;}
+.a_p2,.a_p3{ left:52px; top:70px;}
+.a_p4,.a_p5{ left:223px; top:52px;}
+.a_p6{ left:308px; top:17px;}
+.a_p7{ left:400px; top:17px;}
+.a_p8{ left:535px; top:0px;}
+.a_p9{ left:535px; top:0px;}
+.a_p10{ left:620px; top:-30px;}
+.a_p11{ left:713px; top:-30px;}
+.a_p12{ left:800px; top:-30px;}
+
+
+.color01{ background:#B3D335; }
+.color02{ background:#0C79BE; }
+.color03{ background:#f6881f; }
+.color04{ background:#0C79BE; }
+.color05{ background:#0C79BE; }
+.color06{ background:#0C79BE; }
+.color07{ background:#0C79BE; }
+.color08{ background:#0C79BE; }
+

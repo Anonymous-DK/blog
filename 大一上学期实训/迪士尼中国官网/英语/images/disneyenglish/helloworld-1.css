@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.helloworld_wrap{ background:url(innerBg-1.jpg)/*tpa=https://www.disneyenglish.com/images/innerBg.jpg*/ repeat left top; width:100%;}
+.helloworld_cont{ background: url(innerBg-1.jpg)/*tpa=https://www.disneyenglish.com/images/innerBg.jpg*/ repeat left top; width:1010px; margin:0 auto; padding-bottom:8px; padding-top:8px; overflow:hidden}
+.helloworld_left{ float:left; width:248px; display:inline; overflow:hidden}
+.helloworld_main{ float:left ; width:498px; display:inline; overflow:hidden; margin-left:3px;}
+.helloworld_main2{ float:left ; width:750px; display:inline; overflow:hidden;}
+.helloworld_right{ float:right; width:248px; display:inline; overflow:hidden}
+.helloworld_wrap h2{ font-size:22px; line-height:22px;font-family: 'disney_english_2_dembdregular';}
+.helloworld_wrap h3{ font-size:14px; line-height:16px;font-family: 'disney_english_2_dembdregular';}
+.helloworld_wrap p{ font-size:12px; line-height:16px;}
+.helloworld_wrap .sign, .helloworld_wrap .online{ padding-top:8px; padding-bottom:8px; }
+.over_cont h2{ margin-top:40px;}
+
+
+.back_cont{ background:#dbdbdb; overflow:hidden; zoom:1}
+.cred_cont{ background:#b4272b; overflow:hidden; zoom:1}
+.oh_cont{ background:#b3d335; overflow:hidden; zoom:1}
+.otoe_cont{ background:#0c79be; overflow:hidden; zoom:1; height:592px;}
+.over_cont{ background:#f6871c; overflow:hidden; zoom:1}
+.oft_cont{ background:#564ca0; overflow:hidden; zoom:1; height:592px;}
+.oce_cont{ background:#5a683b; overflow:hidden; zoom:1; height:592px;}
+.eye_cont{ overflow:hidden; zoom:1}
+
+
+.helloworld_wrap h2{padding:10px 0 10px 26px}
+.helloworld_wrap h3{padding-left:26px; padding-right:30px; margin-bottom:13px;}
+.helloworld_wrap p{padding-left:26px; padding-right:30px; margin-bottom:13px; text-align:justify}
+.bigeye_link{ text-align:center; padding-top:15px; padding-bottom:11px;}
+.bigeye_cont{ position:relative; height:225px;}
+.oh_cont .bigeye_cont, .over_cont .bigeye_cont{ height:393px;}
+.bigeye_img{ position:absolute; left:0 ; top:0; display:none}
+
+.go_program{ /*background:url(../images/arrow_01.png) 20px center no-repeat;*/ font-size:38px; line-height:38px;font-family: 'disney_english_2_dembdregular'; padding:20px 10px; display:block}
+.go_program img{ margin-top:10px;}
+.go_back{ background:url(arrow_03-1.png)/*tpa=https://www.disneyenglish.com/images/arrow_03.png*/ 20px center no-repeat; font-size:30px; line-height:32px;font-family: 'disney_english_2_dembdregular'; padding:20px; padding-left:85px; display:block}
+
+
+.bigeye_link a{ background:url(point-1.png)/*tpa=https://www.disneyenglish.com/images/point.png*/ right no-repeat; width:10px; height:10px;  margin:0 3px; display:inline-block}
+.bigeye_link a:hover , .bigeye_link a.on{  background:url(point-1.png)/*tpa=https://www.disneyenglish.com/images/point.png*/ no-repeat; width:10px; height:10px; display:inline-block}
+
+
+
+.hw_share{ background:url(share-1.png)/*tpa=https://www.disneyenglish.com/images/share.png*/ no-repeat; width:62px; height:22px; display:block; float:right; margin:0 22px 20px 0 }
+.banner_cont2{ background:#ededed; color:#454f55; overflow: hidden; _zoom:1}
+.banner_cont2 h2{ font-size:24px; margin:0 0 20px 0; padding-top:20px;}
+.banner_cont2 p{ font-size:12px; line-height:16px;}
+.banner_cont2 a{ display:block; margin-bottom:60px;}
+.banner_cont{ background:#fcd31f ; width:238px; text-align:center; padding:6px 0 16px 0 ; overflow:hidden; _zoom:1}
+
+h2.title_p{ font-size:30px;  font-family:"disney_english_2_dembdregular"; padding:24px 0 14px 24px}
+.a_f{ font-size:20px;  font-family:"disney_english_2_dembdregular"; background:url(program_arrow_02-1.png)/*tpa=https://www.disneyenglish.com/images/program_arrow_02.png*/ 80% top no-repeat; display:block;  padding:10px 0 14px 24px;}
+.a_f_last{ padding-bottom:27px;}
+.a_st{ font-size:20px;  font-family:"disney_english_2_dembdregular"; background:url(arrow_04-1.png)/*tpa=https://www.disneyenglish.com/images/arrow_04.png*/ 80% top no-repeat; display:block;  padding:5px 0 7px 24px;}
+.a_st_last{ padding-bottom:20px;}
+
+

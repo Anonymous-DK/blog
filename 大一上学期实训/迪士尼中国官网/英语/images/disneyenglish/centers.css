@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+#allmap{width: 100%;height: 100%;overflow: hidden;margin:0;}
+
+.map_wrap{width:100%;position:relative; height:500px; position:relative; }
+.map_cont{ width:100%;  margin:0 auto;position:absolute; height:500px; z-index:1000; left:0; top:0}
+.map_cont_cont{ width:1000px; margin:0 auto; height:500px; position:relative}
+
+.centers_wrap{ background:url(innerBg.jpg)/*tpa=http://www.disneyenglish.com/images/innerBg.jpg*/ repeat left top; width:100%; color:#464646; position:relative; z-index:1960; padding-bottom:20px; }
+.centers_cont{ background: url(innerBg.jpg)/*tpa=http://www.disneyenglish.com/images/innerBg.jpg*/ repeat left top; width:1000px;   margin:0 auto;padding-bottom:40px;zoom:1}
+
+.centers_title_cont{ float:left; width:320px; margin-right:30px;}
+.centers_title_cont h2,.centers_title_cont h3{
+	font-size:30px;
+    font-family:"disney_english_2_medregular";
+	line-height:30px;
+	
+}
+
+.centers_title_cont h2{ padding-top:30px; color:#a1a1a1}
+.center_address_cont{ float:left; width:320px; }
+.center_address_cont h4{
+	font-size:14px;
+    font-family:"disney_english_2_medregular";
+	line-height:14px;
+	padding-top:25px;
+	padding-bottom:5px
+}
+.center_address_cont p{font-size:14px;line-height:14px; line-height:18px;}
+.center_meter_cont{ float:left; width:300px;}
+.center_meter_cont h4{
+	font-size:12px;
+    font-family:"disney_english_2_medregular";
+	line-height:12px;
+	padding-top:25px;
+	padding-bottom:5px
+}
+.center_meter_cont p{font-size:12px;line-height:12px; line-height:18px;}
+.centers_share{ float:left; background:url(center_share.png)/*tpa=http://www.disneyenglish.com/images/center_share.png*/ no-repeat; width:62px; height:23px; display:inline; margin-top:30px; text-indent:-1000em}
+
+.map_wrap .sign_main{ top:0px; left:50%; margin-left:262px;}
+
+.centers_cst_wrap{ background: #7ea456;  width:100%}
+.centers_cst_cont{ background:url(center_img_bar_02.jpg)/*tpa=http://www.disneyenglish.com/images/center_img_bar_02.jpg*/ center top repeat ; width:1000px;   margin:0 auto; position:relative; overflow:hidden; zoom:1; padding-bottom:40px;}
+.centers_cst_cont h2{ font-size:24px; padding:35px 0; font-family:"disney_english_2_medregular";}
+.centers_img_box{ float:left; width: 185px; height:185px; display:inline; margin:0 8px 0 0; position:relative; cursor:pointer}
+.centers_img_box_cover{ background: url(centers_03.png)/*tpa=http://www.disneyenglish.com/images/centers_03.png*/ no-repeat; left:0px; top:0px; width: 185px; height:185px; position:absolute;}
+.centers_img_box img{ display:block; position:absolute; left:0px; top:0px;}
+.popup_box{ overflow:hidden ; zoom:1 ; color:#22313a}
+.popup_box_wrap{  background:#f9ca3b;width:836px; height:800px; 
+position:absolute; 
+left:50%; top:50%; 
+margin:-400px 0 0 -418px;
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px; 
+border-radius:10px;}
+.popup_box_wrap h1{ font-size:30px; line-height:30px;}
+.popup_box_wrap h2{ font-size:14px; line-height:14px;}
+
+#popupImgBox a{ width:64px; height:64px; overflow:hidden; }
+.contentDesp{ padding:22px; }
+
+.centers_img_cont{ position:relative; clear:both; width:1000px; padding-top:40px;}
+.centers_img_cont .img_wrap_wrap{ position:relative; width:960px; overflow:hidden; margin:0 auto; height:185px;}
+.centers_img_cont .img_wrap{ position:absolute; left:0px; top:0px; display:block; width:100%; height:185px;}
+.centers_img_cont li{ float:left}
+.centers_img_prev{ background:url(center_arrow01.png)/*tpa=http://www.disneyenglish.com/images/center_arrow01.png*/ no-repeat; display:block; width:43px; height:44px; position:absolute; left:0px; top:60%; margin-left:-30px; margin-top:-22px; display:none}
+.centers_img_next{ background:url(center_arrow02.png)/*tpa=http://www.disneyenglish.com/images/center_arrow02.png*/ no-repeat; display:block; width:43px; height:44px; position:absolute; right:0; top:60%; margin-right:-27px; margin-top:-22px; display:none}
+
+
+.findnearestbtn{ display:block; background: url(center_miky.png)/*tpa=http://www.disneyenglish.com/images/center_miky.png*/ 0 0 no-repeat; position:absolute; z-index:88; top:640px; left:39%; text-indent:-1000em; width:370px ; height:27px; }
+.findnearestbtn_us{background: url(center_miky_us.png)/*tpa=http://www.disneyenglish.com/images/center_miky_us.png*/ 0 0 no-repeat;}
+.center_cst_box{ width:330px; float:left; overflow:hidden;}
+.center_cst_box .box{ background:#5f9042; padding-bottom:10px;}
+.center_cst_box h3{ font-size:18px;font-family:"disney_english_2_medregular";}
+.center_cst_box p{ font-size:14px; line-height:18px; font-family:"disney_english_2_medregular"; }
+.popup_box h1{ padding:30px 18px 0 70px; float:left; width:80px}
+.popup_box h2{ padding:30px 0px 0 0px; float:left; width:220px;}
+.popup_box p{ padding:30px 70px 0 0px; width:360px; overflow:hidden; float:left}
+.popup_img_wrap{ width:767px; margin:0 auto; clear: both; padding-top:26px;}
+.popup_prev{ background:url(popup_arrow.gif)/*tpa=http://www.disneyenglish.com/images/popup_arrow.gif*/ no-repeat; width:24px; height:14px; float:left; display:inline; margin-top:25px;}
+.popup_next{ background:url(popup_arrow.gif)/*tpa=http://www.disneyenglish.com/images/popup_arrow.gif*/ right top no-repeat; width:24px; height:14px; float:right; display:inline; margin-top:25px;}
+.popup_img_cont{ width:700px; height:69px; overflow:hidden; float:left; margin-left:13px; display:inline; position:relative}
+.popup_img_cont a{ width:64px; margin:2px; height:64px; float:left; display:inline; margin-right:10px;}
+.popup_img_cont a.on , .popup_img_cont a:hover{ border:2px solid #fff; margin:0; margin-right:8px;}
+.popup_img_box{ position:absolute ; height:64px; width:700px }
+
+.centers_btn_more{ background:url(press_more.png)/*tpa=http://www.disneyenglish.com/images/press_more.png*/ no-repeat; width:57px; height:15px; display:block; margin:15px 0 0 26px; padding-bottom:18px;}
+.city_bar_wrap{ background:#000; width:100%; position:absolute; left:0; top:0; display:none; opacity:.7;filter:alpha(opacity=70);}
+.city_bar_cont{background:#000; width:635px; margin:0 auto; overflow:hidden ; padding:0 300px 0 65px;}
+.city_bar_cont li{ height:36px; line-height:36px; float:left; padding:0 4px; width:auto;border:1px solid #000;} 
+.city_bar_cont li a{white-space:nowrap}  
+.city_bar_cont ul{ overflow:hidden;} 
+
+
+
+.centers_cst_wrap .content .mask-tl
+{
+	background: url(c-mask-tl.gif)/*tpa=http://www.disneyenglish.com/images/c-mask-tl.gif*/ no-repeat;
+	top: 0px;
+	left: 0px;
+}
+.centers_cst_wrap .content .mask-tr
+{
+	background: url(c-mask-tr.gif)/*tpa=http://www.disneyenglish.com/images/c-mask-tr.gif*/ no-repeat;
+	top: 0px;
+	right: 0px;
+}
+.centers_cst_wrap .content .mask-bl
+{
+	background: url(c-mask-bl.gif)/*tpa=http://www.disneyenglish.com/images/c-mask-bl.gif*/ no-repeat;
+	bottom: 0px;
+	_bottom: -13px;
+	left: 0px;
+}
+.centers_cst_wrap .content .mask-br
+{
+	background: url(c-mask-br.gif)/*tpa=http://www.disneyenglish.com/images/c-mask-br.gif*/ no-repeat;
+	right: 0px;
+	bottom: 0px;
+	_bottom: -13px;
+}

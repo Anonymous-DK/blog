@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+.helloworld_wrap{ background:url(innerBg.jpg)/*tpa=http://www.disneyenglish.com/images/innerBg.jpg*/ repeat left top; width:100%;}
+.helloworld_cont{ background: url(innerBg.jpg)/*tpa=http://www.disneyenglish.com/images/innerBg.jpg*/ repeat left top; width:1010px; margin:0 auto; padding-bottom:8px; padding-top:8px; overflow:hidden}
+.helloworld_left{ float:left; width:744px; display:inline; overflow:hidden}
+.helloworld_main{ float:left ; width:248px; display:inline; overflow:hidden; margin-left:3px;}
+.helloworld_main2{ float:left ; width:248px; display:inline; overflow:hidden; margin-left:3px;}
+.helloworld_right{ float:right; width:248px; display:inline; overflow:hidden}
+.helloworld_wrap h2{ font-size:24px; line-height:24px;font-family: 'disney_english_2_dembdregular';}
+.helloworld_wrap h3{ font-size:14px; line-height:16px;font-family: 'disney_english_2_dembdregular';}
+.helloworld_wrap p{ font-size:12px; line-height:16px;}
+.helloworld_wrap .sign, .helloworld_wrap .online{ padding-top:8px; padding-bottom:8px; }
+
+
+.header_nav{ background:#22313a; height:40px; line-height:40px; color:#fff; font-size:12px; }
+.header_navc{ width:1010px; margin:0 auto; }
+.header_navc li{ float:left; margin-right:10px; }
+.header_nav_sub{ position:relative; display:inline; }
+.header_nav_subc{ background:url(headernavsub.png)/*tpa=http://www.disneyenglish.com/images/headernavsub.png*/; display:none; margin-top:30px; width:196px; height:57px; padding:10px; position:absolute; }
+.header_nav_subc a{ display:block; color:#1981c8; font-size:12px; line-height:20px; }
+.relatednews{ padding:0 20px 10px; }
+.relatednews li{ margin-bottom:10px; }
+.relatednews a{ color:#bcc1ea; font-size:12px; }
+.relatednews a:hover{ color:#fff; }
+
+
+.helloworld_left{ color:#000; }
+.helloworld_left .date{ font-size:14px; color:#797979; margin:20px 0; }
+.helloworld_left h1{ font-size:30px; margin-bottom:10px; }
+.helloworld_left h4{ color:#797979; margin-bottom:20px; font-size:18px; }
+.helloworld_wrap .helloworld_left p{ margin:0; padding:0; color:#797979; line-height:200%; font-size:14px; }
+.helloworld_left p b{ color:#000; }
+.helloworld_left a{ color:#000; text-decoration:underline; }
+.helloworld_left a:hover{ text-decoration:none; }
+
+.share{ padding-top:20px; clear:both; }
+.btn_share{ background:url(center_share.png)/*tpa=http://www.disneyenglish.com/images/center_share.png*/; width:62px; height:23px; display:block; float:right; }
+
+
+.back_cont{ background:#dbdbdb; overflow:hidden; zoom:1}
+.cred_cont{ background:#b4272b; overflow:hidden; zoom:1}
+.oh_cont{ background:#b3d335; overflow:hidden; zoom:1}
+.otoe_cont{ background:#0c79be; overflow:hidden; zoom:1}
+.over_cont{ background:#f6871c; overflow:hidden; zoom:1}
+.oft_cont{ background:#564ca0; overflow:hidden; zoom:1}
+.oce_cont{ background:#505792; overflow:hidden; zoom:1}
+.eye_cont{ overflow:hidden; zoom:1}
+
+
+.helloworld_wrap h2{padding:10px 0 10px 26px}
+.helloworld_wrap h3{padding-left:26px; padding-right:30px; margin-bottom:13px;}
+.helloworld_wrap p{padding-left:26px; padding-right:30px; margin-bottom:13px;}
+.bigeye_link{ text-align:center; padding-top:15px; padding-bottom:11px;}
+.bigeye_cont{ position:relative; height:225px;}
+.bigeye_img{ position:absolute; left:0 ; top:0; display:none}
+
+.go_program{ font-size:34px; line-height:35px;font-family: 'disney_english_2_dembdregular'; padding:20px; display:block}
+.go_back{ background:url(arrow_03.png)/*tpa=http://www.disneyenglish.com/images/arrow_03.png*/ 20px center no-repeat; font-size:35px; line-height:32px;font-family: 'disney_english_2_dembdregular'; padding:30px; padding-left:95px; display:block}
+
+
+.bigeye_link a{ background:url(point.png)/*tpa=http://www.disneyenglish.com/images/point.png*/ right no-repeat; width:10px; height:10px;  margin:0 3px; display:inline-block}
+.bigeye_link a:hover , .bigeye_link a.on{  background:url(point.png)/*tpa=http://www.disneyenglish.com/images/point.png*/ no-repeat; width:10px; height:10px; display:inline-block}
+
+
+
+.hw_share{ background:url(share.png)/*tpa=http://www.disneyenglish.com/images/share.png*/ no-repeat; width:62px; height:22px; display:block; float:right; margin:0 22px 20px 0 }
+.helloworld_wrap h2.new_title{ font-size:20px}
+
+

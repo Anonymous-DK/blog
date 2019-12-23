@@ -1,0 +1,123 @@
+@charset 'UTF-8';
+/* UED Interaction (http://www.njued.com) */
+/* Design By UED Team Copyright 2017 UED Interaction */
+input{-webkit-appearance:none; outline:none;}
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  background:url(images/blue.png);
+  height: 20px;
+  vertical-align: middle;
+  width: 20px;
+  background-size:20px;
+  vertical-align:middle;
+  outline:none;
+  border:0;
+}
+
+input[type="checkbox"]:focus,
+input[type="checkbox"]:hover {
+  background-position: 0 -20px;
+  outline: none;
+}
+
+input[type="checkbox"]:checked {
+  background-position: 0 -40px;
+}
+
+input[type="checkbox"][disabled] {
+  background-position: 0 -60px;
+}
+
+input[type="checkbox"][disabled]:checked {
+  background-position: 0 -80px;
+}
+
+
+
+.one-area{width:100%;}
+
+.one-str{overflow:hidden;width:1000px; margin:10px auto; position:relative;}
+.disney-form{float:right; width:260px; min-height:405px; background:url(images/form_bg.png) #ffd349 no-repeat right bottom; padding:15px; border-radius:3px; -webkit-box-sizing:border-box;box-sizing:border-box;}
+.one-banner{margin-right:270px; height:460px; -webkit-box-sizing:border-box;box-sizing:border-box; }
+
+.form-title p{font-size:14px; color:#960;}
+.form-title h3{color:#333; font-size:24px; font-weight:600;}
+
+.form-ul{margin:0 auto; overflow:hidden;}
+.form-ul li{float:left; width:100%; padding:5px 0;}
+
+.comm-select{display:inline-block; border:0; outline:none; width:100%; padding:0 8px; height:30px; line-height:30px; border-radius:3px; color:rgba(255,255,255,.6);font-size:14px; background-image:url(images/arr_down.png);background-color: rgba(0,0,0,.5);background-repeat: no-repeat;background-position: 96% center; background-size:14px; -webkit-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;appearance:none;}
+.comm-inputxt{display:inline-block; border:0; outline:none; width:100%; padding:0 8px;height:30px; line-height:30px; border-radius:3px; background:rgba(0,0,0,.5); color:rgba(255,255,255,.8); font-size:14px;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;appearance:none; }
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {color:rgba(255,255,255,.6);}
+
+.ptxt{color:rgba(0,0,0,.8); font-size:13px; }
+.ptxt input{float:left; width:20px; display:block; vertical-align:top;}
+.ptxt a{text-decoration:underline; color:#333;}
+.ptxt span{margin-left:24px; display:block;line-height:20px; }
+
+.btn-submit{display:block; width:100%; height:44px; background:#f96a04; font-size:18px; color:#fff; text-align:center; line-height:44px; border-radius:3px; box-shadow:1px 1px 5px rgba(242,75,2,.5);}
+
+.banner-img img{display:block; width:100%; border-radius:3px;}
+
+.contaienr{width:1000px; margin:10px auto; position:relative;}
+.list-three{overflow:hidden; margin-left:-10px; margin-right:-10px;}
+.list-three li{float:left; width:33.3333%; padding:10px; -webkit-box-sizing:border-box;box-sizing:border-box;}
+.list-three li img{display:block; width:100%;}
+
+.down-box{margin-top:30px;background:url(images/down_bg.png) #d1edf5 repeat-x left bottom; padding-bottom:30px;}
+.db-title{background:#54678b; line-height:52px; border-radius:6px 6px 0 0; text-align:center; font-size:16px; font-weight:600; color:#fff;}
+
+.db-con{position:relative; padding:30px; background:url(images/dbg_2.png) no-repeat right bottom;}
+.db-con p{font-size:14px; line-height:1.5; color:#333;}
+
+.list-two{overflow:hidden; margin-left:-20px; margin-right:-20px;}
+.list-two li{float:left; width:50%; padding:20px; -webkit-box-sizing:border-box;box-sizing:border-box;}
+
+.codeimg{margin:5px 0;display:block; padding:5px; background:#fff; border:2px solid #54678b; width:180px;}
+
+.mq{position:absolute; right:10px; top:-80px;}
+.mq img{display:block; width:110px;}
+
+.commpadding{padding:20px 0;}
+.comm-title{font-size:15px; color:#666;}
+.comm-title span{display:block; font-size:20px; font-weight:600; color:#333; line-height:30px;}
+
+.class-list{overflow:hidden; margin-left:-10px; margin-right:-10px;}
+.class-list li{float:left; width:50%; padding:10px; -webkit-box-sizing:border-box;box-sizing:border-box;}
+
+.classbox{overflow:hidden;}
+.classbox dt{float:left; width:45%;}
+.classbox dt img{display:block; width:100%;}
+.classbox dd{margin-left:45%; padding-left:15px;}
+.classbox dd h3{font-size:18px; line-height:30px; font-weight:600; color:#333; }
+.classbox dd p{margin-top:5px; position:relative; font-size:12px; font-weight:600; color:#666; line-height:24px; padding-left:10px;}
+.classbox dd p:after{content:''; width:4px; height:4px; border-radius:4px; background:#666; position:absolute; left:0; top:10px;  }
+
+.classbox dd h4{font-size:15px; font-weight:600; color:#333;line-height:25px; height:50px; overflow:hidden; }
+.classbox dd h5{font-size:12px; color:#888; line-height:20px; height:60px;  overflow:hidden; }
+.classbox dd h6{font-size:12px; color:#999; line-height:20px; margin-top:10px;}
+
+.time-box{margin-top:10px; padding:30px; border-radius:3px; background:url(images/dbg_3.png) #f3f9e8 no-repeat right top; }
+.time-box img{display:block; width:100%;}
+
+.room-box{overflow:hidden; padding:15px 0; }
+.room-left{float:left; width:40%;}
+.room-right{float:right; width:40%;}
+.room-right img{display:block; width:100%;}
+
+.rlist li{overflow:hidden; padding:0 0 20px;}
+.rlist li img{float:left; display:block; width:90px;}
+.rlist li span{padding-top:15px; display:block; margin-left:115px; font-size:16px; line-height:1.75; font-weight:600; color:#333;}
+
+.teabox{background:url(images/tbg.png) no-repeat right center; background-size:540px; min-height:480px; padding-right:580px; padding-top:160px; -webkit-box-sizing:border-box;box-sizing:border-box;}
+.teabox p{font-size:16px; color:#333; line-height:1.75; font-weight:600;}
+
+/*page*/
+.pagination {text-align: left; padding: 16px 0; font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;}
+.pagination a {display:inline-block;margin: 0 1px 0 0; padding: 6px 12px; }
+.pagination a.number{background:#fff; border:1px solid #0269b4; color:#0269b4;}
+.pagination a.number:hover{background:#f8f8f8; text-decoration:none;}
+.pagination a.current {background:#0269b4;  color: #fff !important;}
+.pagination a.current:hover {background:#0269b4;text-decoration: none;}
+.pagination a.Previous{border-radius:4px 0px 0px 4px;}
+.pagination a.Next{border-radius:0px 4px 4px 0;}
