@@ -33,6 +33,7 @@ a{
     /* height: 6000px; */
     /* background-color: green; */
     margin: 0 auto;
+    overflow: hidden;
 }
 /* 头部 */
 .header_txt{
@@ -80,7 +81,7 @@ a{
 .content_t_img_l{
     width: 366px;
     height: 500px;
-    margin-top: -382px;
+    margin-top: -358px;
 }
 .content_t_txt_t{
     width: 586px;
@@ -91,7 +92,7 @@ a{
 .content_t_img_c{
     width: 366px;
     height: 500px;
-    margin: 18px 0 0 614px;
+    margin: 42px 0 0 614px;
 }
 .content_t_txt_c{
     width: 586px;
@@ -101,12 +102,12 @@ a{
 .content_t_img_b{
     width: 386px;
     height: 450px;
-    margin-top: 60px;
+    margin-top: 74px;
 }
 .content_t_txt_b{
     width: 566px;
     height: 468px;
-    margin:-400px 0 0 414px;
+    margin:-420px 0 0 414px;
 }
 /* 中间 */
 .content_c{
@@ -118,7 +119,7 @@ a{
     height: 592px;
     position: relative;
     left: 192px;
-    top: -58px;
+    top: 14px;
     z-index: -1;
 }
 .content_c_txt_t{
@@ -127,7 +128,7 @@ a{
     /* border: red solid; */
     border-right: rgb(76, 180, 231) dotted 6px;
     border-bottom: rgb(76, 180, 231) dotted 6px;
-    margin-top: -176px;
+    margin-top: -100px;
     margin-left: 30px;
     line-height: 30px;
     box-shadow: 28px 18px 10px #4965d6 ;
@@ -135,12 +136,13 @@ a{
 .content_c_title{
     width: 980px;
     height: 50px;
+    line-height: 34px;
     /* border: red solid; */
     color: rgb(228, 7, 7);
     font-family: "宋体";
     font-size: 24px;
     font-weight: bold;
-    margin-top: 34px;
+    margin-top: 42px;
 }
 /* 小版块 */
 .content_c_img{
@@ -148,7 +150,7 @@ a{
     height: 200px;
 }
 .content_c_img_l{
-    margin-top: 10px;
+    margin-top: 28px;
 }
 .content_c_txt{
     width: 276px;
@@ -186,13 +188,13 @@ a{
 /* 底部 */
 .content_b{
     width: 980px;
-    height: 464px;
+    height: 560px;
 }
 .content_b_txt{
     writing-mode: vertical-lr;
     font-size: 24px;
     color: #1826B0;
-    margin-top: 22px;
+    margin-top: 130px;
     margin-left: 60px;
     text-shadow: #FFBA00 2px 16px 8px;
     font-weight: bold;
@@ -334,27 +336,31 @@ a{
 /* 结尾 */
 .footer{
     width: 980px;
-    height: 664px;
+    height: 540px;
 }
 .footer_l{
     width: 590px;
     height: 600px;
     position: relative;
-    top: -24px;
+    top: -210px;
+    left: -58px;
     z-index: 4;
 }
 .footer_r{
-    width: 474px;
-    height: 600px;
+    width: 350px;
+    height: 560px;
     position: relative;
-    top: -584px;
-    left: 463px;
+    top: -94px;
+    left: -286px;
 }
 .footer_txt{
-    font-size: 30px;
+    font-size: 48px;
     font-weight: bold;
     color: pink;
-    text-align: center;
     position: relative;
-    top: -588px;
+    top: -640px;
+    left: 736px;
+    writing-mode: vertical-lr;
+    line-height: 64px;
+    letter-spacing: 6px;
 }
